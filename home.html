@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Front-end Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="item" onclick="openModal(0)">
+              <img src="https://via.placeholder.com/200x200" alt="Person 1">
+              <h2>Person 1</h2>
+              <p>person1@example.com</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="item" onclick="openModal(1)">
+              <img src="https://via.placeholder.com/200x200" alt="Person 2">
+              <h2>Person 2</h2>
+              <p>person2@example.com</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="item" onclick="openModal(2)">
+              <img src="https://via.placeholder.com/200x200" alt="Person 3">
+              <h2>Person 3</h2>
+              <p>person3@example.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="item" onclick="openModal(3)">
+              <img src="https://via.placeholder.com/200x200" alt="Person 4">
+              <h2>Person 4</h2>
+              <p>person4@example.com</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="item" onclick="openModal(4)">
+              <img src="https://via.placeholder.com/200x200" alt="Person 5">
+              <h2>Person 5</h2>
+              <p>person5@example.com</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="item" onclick="openModal(5)">
+              <img src="https://via.placeholder.com/200x200" alt="Person 6">
+              <h2>Person 6</h2>
+              <p>person6@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <img src="" alt="">
+                <h2></h2>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
