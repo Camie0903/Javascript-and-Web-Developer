@@ -110,6 +110,7 @@ body {
 }
 
 </style>
+
 <body>
     <div class="container">
         <div class="row">
@@ -174,8 +175,7 @@ body {
         </div>
     </div>
 
-    <script >
-      // Fetch data from API
+    <script>
 fetch('https://randomuser.me/api/?results=6')
 .then(response => response.json())
 .then(data => {
@@ -201,7 +201,8 @@ fetch('https://randomuser.me/api/?results=6')
     console.log(error);
 });
 
-// Modal functions
+
+//  functions for modal
 const modal = document.getElementById('modal');
 const modalContent = document.querySelector('.modal-content');
 const closeModal = document.querySelector('.close');
